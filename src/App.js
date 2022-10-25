@@ -29,7 +29,7 @@ function App() {
       </picture>
 
       <div>
-        <button onClick={fetchAdvice}>
+        <button onClick={fetchAdvice} ariaLable="Click">
           <img src={dice} alt="" />
         </button>
       </div>
